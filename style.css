@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.drop-down-background {
+    background: cadetblue;
+}
+
+.drop-down-main {
+    width: 1024px;
+    margin: auto;
+}
+
+.drop-down-main>nav>ul {
+    list-style: none;
+    display: flex;
+}
+
+.drop-down-main nav ul li {
+    padding: 15px;
+    position: relative;
+}
+
+.drop-down-main>nav>ul>li {
+    border-right: 1px solid rebeccapurple;
+}
+
+.drop-down-main>nav>ul>li>ul {
+    position: absolute;
+    list-style: none;
+    display: none;
+    background: seagreen;
+}
+
+.drop-down-main nav ul li:last-child{
+    border-right: none;
+}
+
+.drop-down-main nav ul li a {
+    color: wheat;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: math;
+    display: block;
+}
+
+.drop-down-main nav ul li a:hover {
+    color: aqua;
+    transition: all 0.5s;
+}
+
+
+.drop-down-main>nav>ul>li:hover .smartphones {
+    display: block;
+}
+
+.drop-down-main>nav>ul>li:hover .electronics {
+    display: block;
+}
+
+.drop-down-main>nav>ul>li:hover .mobile-accessories {
+    display: block;
+}
+
+.drop-down-main>nav>ul>li:hover .computers {
+    display: block;
+}
+
+
+ul.smartphones>li {
+    width: max-content;
+    border-bottom: 1px solid rebeccapurple;
+
+}
+
+ul.electronics>li {
+    width: max-content;
+    border-bottom: 1px solid rebeccapurple;
+}
+
+
+ul.mobile-accessories>li {
+    width: max-content;
+    border-bottom: 1px solid rebeccapurple;
+
+}
+
+ul.computers>li {
+    width: max-content;
+    border-bottom: 1px solid rebeccapurple;
+
+}
